@@ -13,7 +13,7 @@ public class Tama : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward/2);
+        transform.Translate(Vector3.forward/3);
     }
 
     private void OnCollisionEnter(Collision collision)
