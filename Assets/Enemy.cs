@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {   
     private Vector3 pos;
 
+    public GameManager gameManager;
+
     public int return_point;
 
-    
 
     
 
@@ -25,10 +27,12 @@ public class Enemy : MonoBehaviour
 
     }
 
-   
-    private void OnCollisionEnter(Collision collision)
-    {
-        Destroy(gameObject);
+    private void OnCollisionEnter(Collision collision) {
 
+        gameManager.score++;
+        Destroy(gameObject);
     }
+
+   
+    
 }
