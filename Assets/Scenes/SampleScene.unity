@@ -1230,7 +1230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tama: {fileID: 1429492658307551093, guid: d791259e252841d4b8ecac890664dc27, type: 3}
-  deceleration_rate: 15
+  deceleration_rate: 10
 --- !u!1001 &1200981082
 PrefabInstance:
   m_ObjectHideFlags: 0
