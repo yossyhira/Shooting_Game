@@ -15,11 +15,7 @@ public class EnemiesSpawnManager : MonoBehaviour
 
     void Start()
     {
-        posx = Random.Range(-5,5);
-        posz = Random.Range(-5,5);
-        randompos=new Vector3(posx,0,posz);
-
-        Instantiate(silinder,randompos,Quaternion.identity);
+        
     }
 
     // Update is called once per frame
